@@ -2,7 +2,9 @@
 
 typedef enum {
 	singleTap,
+	doubleTap,
 	lrSwipe,
+	rlSwipe,
 	MaxEvents
 }eventCodes;
 
